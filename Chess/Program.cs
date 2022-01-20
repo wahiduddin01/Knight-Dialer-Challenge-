@@ -6,8 +6,10 @@ namespace Chess
     {
         static void Main(string[] args)
         {
+
             UI uI = new UI();
             uI.Run();
+
         }
     }
 }
