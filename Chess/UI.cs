@@ -10,11 +10,12 @@ namespace Chess
 
         public UI()
         {
+            //
         }
 
         public void Run()
         {
-            Console.WriteLine("Enter the desired length of a valid phone number (min 1 and max 10)" );
+            Console.WriteLine("Enter the desired length of a valid phone number (min 1 and max 10)");
 
             string phoneNumLengthtStr = Console.ReadLine();
             phoneNumLengthtStr = phoneNumLengthtStr.Trim();
